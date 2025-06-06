@@ -16,12 +16,12 @@ docker run -p 5432:5432 --name some-postgres -e POSTGRES_PASSWORD=postgres -d po
 
 Once the database is running, configure with the `db.py` script:
 ```
-python db.py
+python3 db.py
 ```
 
 Then the CSV file from the problem statement can be imported with:
 ```
-python load.py
+python3 load.py
 ```
 
 When this is done, we are ready to run the back-end:
